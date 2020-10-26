@@ -42,16 +42,28 @@
     font-size: 25px;
     margin: 0
 }
-
+p {
+  font-size: 15px;
+  text-align: center;
+}
 .content{
     padding: 200px;
     margin-top: 0px;
 }
+h2 {
+    color: #5d42f7;
+    text-align: center;
+    text-decoration: navajowhite;
+    font-size: 25px;
+}
+form {
+  text-align: center;
 }
 .content h2{
-    font-size: 40px;
+    font-size: 50px;
     text-decoration-color: white;
     font-family: fantasy;
+    color: navy;
 }
 .content p{
     font-size:30px ;
@@ -68,8 +80,6 @@
     padding: 200px;
     margin-top: 0px;
 }
-
-}
 #contact h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -82,9 +92,6 @@ input {
 textarea {
   display: block;
   border-radius: 7px;
-}
-* {
-  box-sizing: border-box;
 }
 body {
   border-radius: 7px;
@@ -143,17 +150,16 @@ input[type=submit]:hover {
   border: button;
   background-color: #827d82;
   cursor: pointer;
-  transision: all 2c; linear
+  transision: all 2c; linear;
 }
 select {
   width: 40%;
   font-family: Georgia, serif;
   letter-spacing: normal;
 }
-
 .poetry {
     font-family: inherit;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 200;
     line-height: 48px;
     margin: 0 auto 12px;
@@ -162,7 +168,6 @@ select {
     width: 700px;
     word-wrap: break-word;
     border-radius:5px;
-
 }
 .time {
   font-family: inherit;
@@ -171,7 +176,6 @@ select {
   font-size: 12px;
   text-transform: uppercase;
   word-wrap: break-word;
-  
 }
 .poem {
   font-family: inherit;
@@ -189,4 +193,9 @@ select {
   text-align: right;
   font-size: 30px;
   color: black;
+}
+H1 {
+  color: #2e1717;
+  text-align: center;
+  
 }
